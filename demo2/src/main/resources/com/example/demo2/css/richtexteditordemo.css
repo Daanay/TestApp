@@ -1,0 +1,37 @@
+.color-picker.foreground {
+    -fx-color-label-visible: false;
+    -fx-color-rect-width: 6;
+    -fx-color-rect-height: 6;
+    -fx-graphic: url("HTMLEditor-Text-Color.png");
+}
+
+.color-picker.background {
+    -fx-color-label-visible: false;
+    -fx-color-rect-width: 6;
+    -fx-color-rect-height: 6;
+    -fx-graphic: url("HTMLEditor-Background-Color.png");
+}
+
+.status-bar {
+    -fx-padding: 10;
+}
+
+.rich-text-area {
+    -fx-background-color: whitesmoke;
+    -fx-padding: 20;
+}
+
+.rich-text-area > .paragraph-list-view {
+    -fx-padding: 10;
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.rich-text-area:readonly .paragraph-list-view {
+    -fx-background-color: lightblue;
+    /*-fx-border-color: darkgray;*/
+}
+
+.rich-text-area .paragraph-list-view > .content-area > .layers > .text-flow {
+    /*-fx-padding: 10;*/
+}
